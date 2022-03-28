@@ -1,0 +1,19 @@
+#cypress related files & folders
+node_modules
+*.log
+*.aes
+.history
+.vscode
+env
+.DS_Store
+.tmp
+cypress\videos
+cypress\misc
+
+#general files
+readme.txt
+
+
+
+
+
