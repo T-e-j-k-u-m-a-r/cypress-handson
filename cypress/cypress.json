@@ -1,6 +1,0 @@
-{
-    "$schema": "https://on.cypress.io/cypress.schema.json",
-    "watchForFileChanges": true,
-    "defaultCommandTimeout": 10000,
-    "chromeWebSecurity": false
-}
