@@ -7,7 +7,8 @@
     "scripts": {
         "cy:open": "cypress open",
         "cy:run": "cypress run --spec 'cypress/integration/00_Tejkumar/orangehrm/*.js'",
-        "test:all": "cypress run"
+        "test:all": "cypress run",
+        "cy:chrome:headless":"cypress run --browser chrome --headless"
     },
     "keywords": [],
     "author": "Tejkumar Kempaiah",
