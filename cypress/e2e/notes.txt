@@ -1,0 +1,30 @@
+/**
+ * 
+ * NOTE: Rest Assured API Automation for HTTP Methods mentioned below. 
+ * 
+ * 1. GET
+ * 2. POST
+ * 3. PATCH
+ * 4. PUT
+ * 
+ */
+
+// Import the library
+const ajv = require(`ajv`)
+
+// Instantiate the ajv object
+const ajv_obj = new ajv();
+
+cy.request(``,function(){
+
+}).then(function(interception){
+
+    //schema definition
+    const schema = {};
+
+    const validate = ajv_obj.complie(scheme);
+    const isValid = validate(interception.response.body)
+
+    expect(isValid).to.be.true;
+
+})

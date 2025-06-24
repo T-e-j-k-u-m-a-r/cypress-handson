@@ -23,19 +23,3 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
-
-import 'cypress-file-upload';
-require('cypress-downloadfile/lib/downloadFileCommand')
-require('cy-verify-downloads').addCustomCommand();
-
-Cypress.Commands.add('login', (email, password) => {
-  cy.get('#email').type(email);
-  cy.get('#password').type(password);
-  cy.get('#login-button').click();
-
-
-
-});
-
-
-

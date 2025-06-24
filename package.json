@@ -1,23 +1,24 @@
 {
-    "name": "raghav-pal",
+    "name": "Tejkumar Kempaiah",
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
     "type": "commonjs",
     "scripts": {
         "cy:open": "cypress open",
-        "cy:run": "cypress run --spec 'cypress/integration/00_Tejkumar/orangehrm/*.js'",
+        "cy:run": "cypress run --spec 'e2e/backendTesting_Or_apiTesting/01_GET.cy.js'",
         "test:all": "cypress run",
-        "cy:chrome:headless":"cypress run --browser chrome --headless"
-    },
+        "cy:chrome:headless": "cypress run --browser chrome --headless"
+    },  
     "keywords": [],
     "author": "Tejkumar Kempaiah",
     "license": "ISC",
     "devDependencies": {
         "@4tw/cypress-drag-drop": "^2.1.0",
         "@faker-js/faker": "^6.0.0",
+        "ajv": "^8.17.1",
         "cy-verify-downloads": "^0.1.2",
-        "cypress": "^9.5.2",
+        "cypress": "13.17.0",
         "cypress-file-upload": "^5.0.8",
         "cypress-plugin-tab": "^1.0.5",
         "cypress-real-events": "^1.7.0",
