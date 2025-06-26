@@ -10,7 +10,7 @@ describe(`API Test Automation`, function () {
 
             expect(interception.body.status).to.eq('success')
             expect(interception.body.code).to.eq(200)
-            expect(interception.body.result).to.have.lengthOf(4)
+            expect(interception.body.result).to.have.lengthOf(5)
         })
     })
 

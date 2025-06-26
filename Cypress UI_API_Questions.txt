@@ -1,0 +1,23 @@
+UI Questions: 
+
+1. How to handle different types of alerts (3)
+2. How to handle opening of link in new tab or window in Cypress
+3. Explain cy.on() and cy.window() method in Cypress
+4. Walkthough all Cypress commands
+
+------------------------------------------
+API Questions: 
+
+1. Difference between PUT, PATCH and POST
+2. What are resources and queryParams ? 
+	How to declare queryParams in Cypress during API testing? 
+		Hint: qs:
+	How to declare url and method type in Cypress during API testing? 
+		Hint: method, url
+	How to declare request body or payload in Cypress during API testing? 
+		Hint: declare payload object and use it in body
+------------------------------------------
+
+
+
+
