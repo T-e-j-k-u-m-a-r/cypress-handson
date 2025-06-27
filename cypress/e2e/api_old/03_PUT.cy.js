@@ -8,7 +8,7 @@ describe(`API Test Automation`, function () {
             "courseId": 3,
             "courseName": "Java Programming",
             "learningMode": "Online",
-            "fee": 99
+            "fee": 855
         }
 
         cy.request({
@@ -24,7 +24,7 @@ describe(`API Test Automation`, function () {
                 method: 'GET',
                 url: 'https://faux-api.com/serve/courses_6076335750361604/'
             }).then(function (interception) {
-                expect(interception.body.result).to.have.lengthOf(4)
+                expect(interception.body.result).to.have.lengthOf(7)
             })
 
         })

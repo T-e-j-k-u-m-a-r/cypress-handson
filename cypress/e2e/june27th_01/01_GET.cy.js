@@ -1,8 +1,8 @@
 // Endpoint: https://faux-api.com/serve/courses_6076335750361604
 
-describe(`API Testing`,function(){
+describe(`API Testing - 1`,function(){
 
-    it(`Get Call - Method 1`,function(){
+    it(`Get Call - Approach 1`,function(){
 
       cy.request(`https://faux-api.com/serve/courses_6076335750361604`).then(function(interception){
 
@@ -18,7 +18,7 @@ describe(`API Testing`,function(){
 
     })
 
-    it(`Get Call - Method 2`,function(){
+    it(`Get Call - Approach 2`,function(){
 
         cy.request({
             method:`GET`,
